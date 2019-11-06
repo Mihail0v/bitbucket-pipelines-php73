@@ -37,7 +37,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get upgrade -y && \
     DEBIAN_FRONTEND=noninteractive apt-get dist-upgrade -y && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y \
-    php-pear php7.3-mysql php7.3-zip php7.3-xml php7.3-redis php7.3-bcmath php7.3-mbstring php7.3-curl php7.3-json php7.3-pdo php7.3-tokenizer php7.3-cli php7.3-imap php7.3-intl php7.3-gd php7.3-soap php7.3-gmp\
+    php-pear php7.3-mysql php7.3-xdebug php7.3-zip php7.3-xml php7.3-redis php7.3-bcmath php7.3-mbstring php7.3-curl php7.3-json php7.3-pdo php7.3-tokenizer php7.3-cli php7.3-imap php7.3-intl php7.3-gd php7.3-soap php7.3-gmp\
     --no-install-recommends && \
     apt-get clean -y && \
     apt-get autoremove -y && \
